@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="IMG/transferir.png" type="image/png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Wikipedia</title>
+</head>
+<body>
+<!--------------------------------------cabeçalho---------------------------------------------->
+    <header id="Inicio">
+        <figure>
+            <img src="https://pt.wikipedia.org/static/images/icons/wikipedia.png" alt="">
+        </figure>
+            <h1>Wikipedia</h1>
+                <input placeholder="Pesquisar no Wikipedia" type="text"><button type="menu">Pesquisar</button> 
+            <nav class="nav1"> 
+                <ul class="ul1">
+                    <li><a href="login.html">Entrar</a></li>
+                    <li><a href="form.html">Criar uma Conta</a></li>
+                </ul>
+            </nav>
+    </header> 
+<!--------------------------------------Ancora------------------------------------------------>
+    <div class="links"><br>
+                <nav class="nav2">
+                    <ul class="ul2">
+                        <strong>Conteúdo</strong><hr><br>
+                        <li><a href="#Inicio">Inicio</a></li>
+                        <br>
+                        <li><a href="#historia"">História</a></li>
+                        <br>
+                        <li><a href="#Marcas">Marcas (tags)</a></li>
+                        <br>
+                        <li><a href="#edit">Edição de documentos HTML</a></li>
+                        <br>
+                        <div class="details">
+                            <details>
+                            <summary><a href="#estruturabasica">Estrutura básica de um <br>documento</a></summary>
+                            <br>
+                            <a href="#cabecalho">Cabeçalho</a>
+                            <br><br>
+                            <a href="#Corpo">Corpo</a>
+                            </details>
+                        </div>
+                        <br>
+                        <li><a href="#cores" style="color: black;">CORES</a></li>
+                        <br>
+                        <li><a href="#Hiperligações">Hiperligações</a></li>
+                        <br>
+                        <li><a href="#Caracteres">Caracteres especiais e <br>símbolos</a></li>
+                    </ul>
+                </nav>
+            </div>  
+    <main>
+<!--------------------------------------HISTORIA----------------------------------------------->
+        <section>
+            <blockquote id="historia" class="block1">HTML</blockquote><hr><br>
+        </section>
+        <section>
+            <p>HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto") é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.
+            <br><br>
+            HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (como áudio, vídeo, etc.), conectados por hiperligações (em inglês: hyperlink e link). O padrão é independente de outros padrões de processamento de texto em geral.
+            <br><br>
+            SGML é um padrão de formatação de textos. Não foi desenvolvido para hipertexto, mas tornou-se conveniente para transformar documentos em hiper-objetos e para descrever as ligações.</p><br>
+        </section>
+        <section>
+            <blockquote>História</blockquote><hr><br>
+            <p>Tim Berners-Lee (físico britânico) criou o HTML original (e outros protocolos associados como o HTTP), numa estação NeXTcube, usando o ambiente de desenvolvimento NeXTSTEP. Na época, a linguagem não era uma especificação, mas uma coleção de ferramentas para resolver um problema de Tim: a comunicação e disseminação das pesquisas entre ele e o seu grupo de colegas. A sua solução, combinada com a então emergente internet pública (que tornar-se-ia a Internet), ganhou atenção mundial.
+            <br><br>
+            As primeiras versões do HTML foram definidas com regras sintáticas flexíveis, o que ajudou aqueles sem familiaridade com a publicação na Web. Através do tempo, a utilização de ferramentas para autoria de HTML aumentou, assim como a tendência em tornar a sintaxe cada vez mais rígida. Apesar disso, por questões históricas (retrocompatibilidade), os navegadores ainda hoje conseguem interpretar páginas web que estão longe de ser um código HTML válido.
+            <br><br>
+            A linguagem foi definida em especificações formais na década de 1990, inspiradas nas propostas originais de Tim Berners-Lee em criar uma linguagem baseada em SGML para a Internet. A primeira publicação foi esboçada por Berners-Lee e Dan Connolly e publicada em 1993 na IETF, como uma aplicação formal para o SGML (com uma DTD em SGML definindo a gramática). A IETF criou um grupo de trabalho para o HTML no ano seguinte, e publicou o HTML 2.0 em 1995. Desde 1996, as especificações HTML vêm sendo mantidas, com o auxílio de fabricantes de software, pelo World Wide Web Consortium (W3C). Apesar disso, em 2000 a linguagem tornou-se também uma norma internacional (ISO/IEC 15445:2000). A recomendação HTML 4.01 foi publicada no final de 1999 pelo W3C. Uma errata ainda foi lançada em 2001.
+            <br><br>
+            Desde a publicação do HTML 3.5 no final de 1997, o grupo de trabalho da W3C tem cada vez mais — e de 2002 a 2006, de forma exclusiva — focado no desenvolvimento do XHTML, uma especificação HTML baseada em XML que é considerada pela W3C como um sucessor do HTML. O XHTML faz uso de uma sintaxe mais rigorosa e menos ambígua para tornar o HTML mais simples de ser processado e estendido.
+            <br><br>
+            Em janeiro de 2008 o W3C publicou a especificação do HTML5 como Working Draft. Apesar de sua sintaxe ser semelhante à de SGML, o HTML5 abandonou qualquer tentativa de ser uma aplicação SGML e definiu explicitamente sua própria serialização "html", além de uma alternativa baseada em XML, o XHTML5.
+            <br><br>
+        </section>
+<!--------------------------------------Tabela----------------------------------------------->
+        <section>
+            <p>Várias versões HTML foram publicadas:</p>
+            <table summary="Essa tabela mostra Versões do HTML">
+                    <tr class="versão">
+                        <th>Versão</th>
+                        <th>Ano</th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>1991</td>
+                    </tr>
+                    <tr>
+                        <td>HTML 2.0</td>
+                        <td>1995</td>
+                    </tr>
+                    <tr>
+                        <td>HTML 3.2</td>
+                        <td>1997</td>
+                    </tr>
+                    <tr>
+                        <td>HTML 4.01</td>
+                        <td>1999</td>
+                    </tr>
+                    <tr>
+                        <td>XHTML</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>2014</td>
+                    </tr>
+                    <tr>
+                        <td>HTML5.1	</td>
+                        <td>2016 e 2017 (2ª ed.)</td>
+                    </tr>
+                    <tr>
+                        <td>HTML5.2</td>
+                        <td>2017</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section><br>
+<!--------------------------------------Marcas----------------------------------------------->
+        <section>
+            <blockquote id="Marcas">Marcas (tags)</blockquote><hr>
+                <div class="tags">
+                    <img src="IMG/HTML_element_content_categories.svg.png" alt="">
+                </div>
+                <div class="text2">
+                    <p>Todo documento HTML possui marcadores (do inglês: tags), palavras entre parênteses angulares (chevron) (&lt; e >); esses marcadores são os comandos de formatação da linguagem. Um elemento é formado por um nome de marcador (tag), atributos, valores e filhos (que podem ser outros elementos ou texto). Os atributos modificam os resultados padrões dos elementos e os valores caracterizam essa mudança. Exemplo de um elemento simples (não possui filhos):</p>
+                    <pre>
+                        <div class="span">
+                            <span class="nt">&lt;</span>
+                            <span class="tags2">hr</span>
+                            <span class="nt">&gt;</span><br>
+                        </div>
+                    </pre>
+                    <br>
+                </div>
+        </section>
+        <section>
+            <P>Exemplo de um elemento composto (possui filhos):</P>
+                    <pre>
+                        <div class="span">
+                            <span class="nt">&lt;</span>
+                            <span class="tags2">a</span>
+                            <span class="atr">href=</span>
+                            <span class="pt">"https://www.wikipedia.org"</span>
+                            <span class="nt">&gt;</span>
+                            <span class="nt">Wikipédia, a enciclopédia livre</span>
+                            <span class="nt">&lt;</span>
+                            <span class="nt">/</span>
+                            <span class="tags2">a</span>
+                            <span class="nt">&gt;</span><br><br>
+                        </div>
+                    </pre>  
+            <ul>
+                <li><code>&lt;a&gt;</code> é o marcador de abertura</li>
+                <li><code>&lt;a/&gt;</code> é o marcador de fechamento</li>
+                <li><code>href</code> é o atributo onde é definido a url, que será acessada ao clicar no link.</li>
+            </ul><br>
+            <p>Outro exemplo de elemento composto (possui filhos):</p>
+            <pre>
+                <div class="span">
+                    <span class="nt">&lt;</span>
+                    <span class="tags2">a</span>
+                    <span class="atr">href=</span>
+                    <span class="pt">"https://www.wikipedia.org"</span>
+                    <span class="atr">target="_self"=</span>
+                    <span class="nt">&gt;</span>
+                    <span class="nt">&lt;</span>
+                    <span class="nt">Wikipédia, a enciclopédia livre</span>
+                    <span class="nt">&lt;</span>
+                    <span class="nt">/</span>
+                    <span class="tags2">p</span>
+                    <span class="nt">&gt;</span><br><br>
+                    <span class="nt">&lt;</span>
+                    <span class="nt">/</span>
+                    <span class="tags2">a</span>
+                    <span class="nt">&gt;</span><br><br>
+                </div>
+            </pre> 
+            <ul>
+                <li><code>a</code> = marcador que define um parágrafo.</li>
+                <li><code>p</code> = marcador que define uma hiperligação.</li>
+                <li><code>href</code> = atributo que define a URL da hiperligação.</li>
+                <li><code>target</code> = atributo que define a forma como a hiperligação será aberta.</li>
+                <li><code>_self</code> = valor do atributo Target que define que a hiperligação será aberta na mesma guia.</li>
+                <li><code>/</code>= define o fechamento do elemento</li>
+            </ul><br>
+            <P>Isso é necessário porque os marcadores servem para definir a formatação de uma porção do documento, e assim marcamos onde começa e termina o conteúdo que receberá a formatação ou marcação necessária, específica. Alguns elementos são chamados “vazios”, pois não marcam uma região de texto, apenas inserem algum elemento no documento. <br><br>
+            Cada elemento tem os seus atributos possíveis e os seus valores. Um exemplo, é o atributo <code>href</code> que pode ser usado com o elemento a, com o <code>link</code> mas que não pode ser usado com o elemento <code>meta</code>. Isso quer dizer que devemos saber exatamente quais os atributos e valores possíveis para cada elemento. <br><br>
+            De uma maneira geral o HTML é um poderoso recurso, sendo uma linguagem de marcação muito simples e acessível voltada para a produção e compartilhamento de documentos, imagens, vídeos e áudio via streaming.
+            <br><br>
+            Na sua versão mais recente, o HTML5, é possível criar marcadores personalizados com JavaScript, linguagem de programação diretamente compatível com o HTML. Cada tag pode ter uma função específica utilizando uma API (Interface de programação de aplicações) diferente, assim como seus nomes e estilos.</P><br>
+
+            <blockquote id="edit">Edição de documentos HTML</blockquote><hr><br>
+            <p>Os documentos em HTML são arquivos de texto simples que podem ser criados e editados em qualquer editor de textos comum, como o Bloco de Notas do Windows, ou o TextEdit, do Macintosh. Para facilitar a produção de documentos, no mercado existem editores HTML específicos, com recursos sofisticados, que facilitam a realização de tarefas repetitivas, inserção de objetos, elaboração de tabelas e outros recursos (Ver lista abaixo). Basicamente dividem-se em dois tipos:</p><br>
+            <ul>
+                <li>Editores de texto fonte: inserem automaticamente os marcadores, orientando a inserção de atributos e marcações</li>
+                <li>Editores WYSIWYG: oferecem ambiente de edição com um "esboço" resultado final das marcações</li>
+            </ul>
+            <blockquote id="estruturabasica">Estrutura básica de um documento</blockquote><hr><br>
+            <p>A estrutura básica de um documento HTML (Hyper Text Markup Language - Linguagem de Marcação de Hypertexto), apresenta as seguintes marcações:</p><br>
+        </section>
+<!----------------------Estrutura básica de um documento--------------------------------------->
+        <section>
+            <pre>
+                <div class="span">
+                    <span class="nt">&lt;</span>
+                    <span class="rh">!DOCTYPE html</span>
+                    <span class="nt">&gt;</span><br>
+
+                    <span class="nt">&lt;</span>
+                    <span class="tags2">html</span>
+                    <span class="atr">lang=</span>
+                    <span class="pt">"pt-BR"</span>
+                    <span class="nt">&gt;</span><br>
+
+                    <span class="li">&lt;</span>
+                    <span class="tags2">head</span>
+                    <span class="nt">&gt;</span><br>
+
+                    <span class="li">&lt;</span>
+                    <span class="tags2">Meta</span>
+                    <span class="atr">charset=</span>
+                    <span class="pt">"UTF-8"</span>
+                    <span class="nt">&gt;</span><br>
+
+                    <span class="li">&lt;</span>
+                    <span class="tags2">Meta</span>
+                    <span class="atr">Name=</span>
+                    <span class="pt">"viewport"</span>
+                    <span class="atr">content=</span>
+                    <span class="pt">"width=device-width, initial-scale=1"</span>
+                    <span class="nt">&gt;</span><br>
+
+
+                    <span class="li">&lt;</span>
+                    <span class="tags2">title</span>
+                    <span class="nt">&gt;</span>
+                    <span class="nt">Título do Documento</span>
+                    <span class="nt">&lt;</span>
+                    <span class="nt">/</span>
+                    <span class="tags2">title</span>
+                    <span class="nt"> &gt;</span><br>
+
+                    <span class="li">&lt;</span>
+                    <span class="nt">/</span>
+                    <span class="tags2">head</span>
+                    <span class="nt">&gt;</span><br>
+
+                    <span class="li">&lt;</span>
+                    <span class="tags2">body</span>
+                    <span class="nt">&gt;</span><br>
+
+                    <span class="lo">&lt;</span>
+                    <span class="trx">!-- Aqui fica a página que será visível para todos, onde pode-se inserir<br>
+                    textos, imagens, links para outras páginas, etc, geralmente usa-se: --</span>
+                    <span class="nt"> &gt;</span><br><br>
+
+                    <span class="lo">&lt;</span>
+                    <span class="tags2">div</span>
+                    <span class="nt">&gt;</span>
+                    <span class="nt">Tag para criar um bloco, mais utilizado com CSS</span>
+                    <span class="nt">&lt;</span>
+                    <span class="nt">/</span>
+                    <span class="tags2">div</span>
+                    <span class="nt">&gt;</span><br><br>
+
+                    <span class="lo">&lt;</span>
+                    <span class="tags2">Span</span>
+                    <span class="nt">&gt;</span> 
+                    <span class="nt">Tag para modificação de uma parte do texto da página</span>
+                    <span class="nt">&lt;</span>
+                    <span class="nt">/</span>
+                    <span class="tags2">span</span>
+                    <span class="nt">&gt;</span><br><br>
+
+                    <span class="lo">&lt;</span>
+                    <span class="atr">src=</span>
+                    <span class="pt">"imagem.jpg"</span>
+                    <span class="nt">&gt;</span><br><br>
+
+                    <span class="lo">&lt;</span>
+                    <span class="tags2">a</span>
+                    <span class="atr">href=</span>
+                    <span class="pt">"https://www.wikipedia.org"</span>
+                    <span class="nt">&gt;</span>
+                    <span class="nt">Wikipédia, a enciclopédia livre</span>
+                    <span class="nt">&lt;</span>
+                    <span class="nt">/</span>
+                    <span class="tags2">a</span>
+                    <span class="nt">&gt;</span><br><br>
+
+                    <span class="li">&lt;</span>
+                    <span class="nt">/</span>
+                    <span class="tags2">body</span>
+                    <span class="nt">&gt;</span><br>
+
+                    <span class="nt">&lt;</span>
+                    <span class="nt">/</span>
+                    <span class="tags2">html</span>
+                    <span class="nt">&gt;</span><br>
+                </div>
+            </pre>
+        </section>
+        <section>
+            <p>Os marcadores HTML não são sensíveis à caixa, portanto tanto faz escrever
+            <code>&lt;HTML&gt;</code>,<code>&lt;Html&gt;</code>,<code>&lt;html&gt;</code> OU <code>&lt;HtMl&gt;</code> <br><br>
+
+            Os marcadores básicos de HTML, cuja presença é altamente recomendada nas páginas são:
+            </p><br>
+            <ul>
+                <li><code>&lt;HTML&gt;</code> : define o início de um documento HTML e indica ao navegador que todo conteúdo posterior deve ser tratado como uma série de códigos HTML</li><br>
+                <li><code>&lt;head&gt;</code> : define o cabeçalho de um documento HTML, que traz informações sobre o documento que está sendo aberto</li><br>
+                <li><code>&lt;body&gt;</code> : define o conteúdo principal, o corpo do documento. Esta é a parte do documento HTML que é exibida no navegador. No corpo podem-se definir atributos comuns a toda a página, como cor de fundo, margens, e outras formatações.</li>
+            </ul><br>
+                <h2 id="cabecalho">Cabeçalho</h2><br>
+                <p>Dentro do cabeçalho podemos encontrar os seguintes elementos:</p><br>
+
+                <ul>
+                    <li><code>&lt;title&gt;&lt;/title&gt;</code>: define o título da página, que é exibido na barra de título dos navegadores</li><br>
+                    <li><code>&lt;style&gt;&lt;/style&gt;</code>: define formatação em CSS</li><br>
+                    <li><code>&lt;script&gt;&lt;/script&gt;</code>: define scripts JavaScript ou importa de um arquivo externo</li><br>
+                    <li><code>&lt;link&gt;</code>: define ligações da página com outros arquivos como feeds, CSS, scripts, etc</li><br>
+                    <li><code>&lt;meta&gt;</code>: define propriedades da página, como codificação de caracteres, descrição da página, autor, etc</li>
+                </ul><br>
+                <p>São meta informações sobre documento. Tais campos são muito usados por mecanismos de busca (como o Google, Yahoo!, Bing) para obterem mais informações sobre o documento, a fim de classificá-lo melhor. Por exemplo, pode-se adicionar o código <code>&lt;<span class="tags2">meta</span><span class="atr">name=</span><span class="pt">"description"</span><span class="atr">content=</span><span class="pt">"descrição da sua página"</span>&gt;</code>no documento HTML para indicar ao motor de busca que texto de descrição apresentar junto com a ligação para o documento. Para o motor de busca Google, por exemplo, elementos <code>meta</code>como keywords não são utilizadas para indexar páginas. Apenas <code>&lt;title&gt;</code>e a meta <code>description</code>são usadas para descrever a página indexada.</p>
+                <br>
+                <p>Obs: Os marcadores <code>&lt;style&gt;</code>e <code>&lt;script&gt;</code>servem tanto para delimitar os espaços usados pelos códigos na página quanto para invocar códigos existentes em outros arquivos externos.</p><br>
+        </section>
+        <section>
+            <h2 id="Corpo">Corpo</h2>
+            <div class="img3">
+                <img src="IMG/corpo.png" alt="">
+            </div>
+            <div class="text3">
+                <ul>
+                    <li><code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>,... <code>&lt;h6&gt;</code> :Títulos que variam de tamanho dentro das prioridades (sua aparência pode ser alterada com CSS - Cascade Style Sheet - Folhas de Estilo em Cascata).</li><br>
+
+                    <li><code>&lt;p&gt;</code> :Parágrafo.</li><br>
+
+                    <li><code>&lt;br&gt;</code> :quebra de linha.</li><br>
+
+                    <li><code>&lt;table&gt;</code>cria uma tabela (linhas são criadas com <code>&lt;tr&gt;</code>e novas células com <code>&lt;td&gt;</code>já os cabeçalhos das colunas são criados com os marcadores<code>&lt;thead&gt; &lt;th&gt;</code>e os rodapés com <code>&lt;tfooter&gt;</code> <code>&lt;tr&gt;</code> <code>&lt;td&gt;</code>).</li><br>
+                    
+                    <li> <code>&lt;div&gt;</code> :determina uma divisão na página a qual pode possuir variadas formatações.</li><br>
+
+                    <li><code>&lt;b&gt;</code>,<code>&lt;i&gt;</code>,<code>&lt;u&gt;</code> e <code>&lt;s&gt;</code> :negrito, itálico, sublinhado e riscado, respectivamente.</li><br>
+
+                    <li><code>&lt;img&gt;</code> :imagem.</li><br>
+
+                    <li><code>&lt;a&gt;</code> :hiper-ligação para um outro local, seja uma página, um e-mail ou outro serviço.</li><br>
+
+                    <li><code>&lt;textarea&gt;</code> :caixa de texto (com mais de uma linha); estas caixas de texto são muito usadas em blogs, elas podem ser auto selecionáveis e conter outros códigos a serem distribuídos.</li><br>
+
+                    <li><code>&lt;abbr&gt;</code> :abreviação (sigla simplesmente abreviada).</li><br>
+
+                    <li><code>&lt;cite&gt;</code> :citação.</li><br>
+
+                    <li><code>&lt;address&gt;</code> :Endereço.</li><br>
+                </ul>
+            </div>
+            <h2 id="cores">Cores</h2><hr><br>
+            <p>As cores podem ser atribuídas em CSS inline com o atributo style, ou o com nome de uma classe com o atributo class. Exemplo:</p><br>
+            <pre>
+                <div class="span">
+                    <span class="nt">&lt;</span>
+                    <span class="tags2">h1</span>
+                    <span class="atr">class=</span>
+                    <span class="pt">"title"</span>
+                    <span class="nt">&gt;</span>
+                    <span class="nt">Titulo</span>
+                    <span class="nt">&lt;</span>
+                    <span class="nt">/</span>
+                    <span class="tags2">h1</span>
+                    <span class="nt">&gt;</span><br>
+
+                    <span class="nt">&lt;</span>
+                    <span class="tags2">p</span>
+                    <span class="atr">style=</span>
+                    <span class="pt">"color: gray"</span>
+                    <span class="nt">&gt;</span>
+                    <span class="nt">Parágrafo.</span>
+                    <span class="nt">&lt;</span>
+                    <span class="nt">/</span>
+                    <span class="tags2">p</span>
+                    <span class="nt">&gt;</span>
+                </div>
+            </pre>
+            <p>Onde a cor pode ser especificada na forma do nome em inglês, ou um número hexadecimal, ou a notação RGB, RGBA ou HSL/HSLA. Exemplos: Tabela de cores e Lista de cores.</p><br>
+
+            <blockquote id="Hiperligações">Hiperligações</blockquote><hr><br>
+            <p>Uma possibilidade importante dos documentos HTML é a de fazer hiperligações. Para isso usa-se o marcado <code>&lt;a&gt;</code>(do inglês, anchor). Esta tem os atributos: <code>href</code> que define o alvo da hiperligação (que pode ser uma página de Internet, uma parte da mesma página ou um endereço de email) ou <code>name</code> que define um alvo nessa página (a onde se pode fazer uma hiperligação usando o marcador <code>a</code>com o atributo <code>href</code>). Exemplos:</p><br>
+                <ul>
+                    <div class="span">
+                        <li>
+                            <code>
+                                <span class="nt">&lt;</span>
+                                <span class="tags2">a</span>
+                                <span class="atr">href=</span>
+                                <span class="pt">"ht­tps://pt.wikipedia.org/"</span>
+                                <span class="nt">&gt;</span>
+                                <span class="nt">Clique aqui para aceder à página principal da Wikipédia em português.</span>
+                                <span class="nt">&lt;</span>
+                                <span class="nt">/</span>
+                                <span class="tags2">a</span>
+                                <span class="nt">&gt;</span>
+                            </code>
+                        </li>
+                        <br>
+                        <li>
+                            <code>
+                                <span class="nt">&lt;</span>
+                                <span class="tags2">a</span>
+                                <span class="atr">name=</span>
+                                <span class="pt">"nome"</span>
+                                <span class="nt">&gt;</span>
+                                <span class="nt">texto</span>
+                                <span class="nt">&lt;</span>
+                                <span class="nt">/</span>
+                                <span class="tags2">a</span>
+                                <span class="nt">&gt;</span>
+                            </code>
+                        </li>
+                    </div>    
+                </ul>
+                <br>
+                <p>Em que <code>nome</code> e <code>texto</code> podem ser substituídos por o que se desejar. Depois usa-se  <code>&lt;a href="#nome"&gt; &lt;/a&gt;</code>para hiperligar a este "anchor". <strong>Diferença entre  <code>target="_blank"</code> e <code>target="_new"</code></strong> <code>target="_blank"</code>é usado para abrir links em várias janelas e <code>target="_new"</code> ou <code>target="booger"</code>é usado para abrir vários links em uma janela.</p><br>
+                <p>Exemplos</p><br>
+                <div class="span">
+                    <ul>
+                        <li>
+                            <code>
+                                <span class="nt">&lt;</span>
+                                <span class="tags2">a</span>
+                                <span class="atr"> href=</span>
+                                <span class="pt">"URL DO LINK"</span>
+                                <span class="atr">target=</span>
+                                <span class="pt">"_blank"</span>
+                                <span class="nt">&gt;</span>
+                                <span class="nt">Título</span>
+                                <span class="nt">&lt;</span>
+                                <span class="nt">/</span>
+                                <span class="tags2">a</span>
+                                <span class="nt">&gt;</span>
+                            </code>
+                        </li>
+                        <br>
+                        <li>
+                            <code>
+                                <span class="nt">&lt;</span>
+                                <span class="tags2">a</span>
+                                <span class="atr"> href=</span>
+                                <span class="pt">"URL DO LINK"</span>
+                                <span class="atr">target=</span>
+                                <span class="pt">"_new"</span>
+                                <span class="nt">&gt;</span>
+                                <span class="nt">Título</span>
+                                <span class="nt">&lt;</span>
+                                <span class="nt">/</span>
+                                <span class="tags2">a</span>
+                                <span class="nt">&gt;</span>
+                            </code>
+                        </li>
+                        <br>
+                        <li>
+                            <code>
+                                <span class="nt">&lt;</span>
+                                <span class="tags2">a</span>
+                                <span class="atr"> href=</span>
+                                <span class="pt">"URL DO LINK"</span>
+                                <span class="atr">target=</span>
+                                <span class="pt">"booger"</span>
+                                <span class="nt">&gt;</span>
+                                <span class="nt">Título</span>
+                                <span class="nt">&lt;</span>
+                                <span class="nt">/</span>
+                                <span class="tags2">a</span>
+                                <span class="nt">&gt;</span>
+                            </code>
+                        </li>
+                        <br>
+                    </ul>
+                </div>
+                <strong>Página em branco é usado about:blank na url do link.</strong><br>
+                <br>
+                <p>Exemplo</p>
+                <br>
+                <div class="span">
+                    <ul>
+                        <li>
+                            <code>
+                                <span class="nt">&lt;</span>
+                                <span class="tags2">a</span>
+                                <span class="atr"> href=</span>
+                                <span class="pt">"about:blank"</span>
+                                <span class="atr">target=</span>
+                                <span class="pt">"_blank"</span>
+                                <span class="nt">&gt;</span>
+                                <span class="nt">Página em branco</span>
+                                <span class="nt">&lt;</span>
+                                <span class="nt">/</span>
+                                <span class="tags2">a</span>
+                                <span class="nt">&gt;</span>
+                            </code>
+                        </li>
+                        <br>
+                        <li> 
+                            <code>
+                                <span class="nt">&lt;</span>
+                                <span class="tags2">a</span>
+                                <span class="atr"> href=</span>
+                                <span class="pt">"about:blank"</span>
+                                <span class="atr">target=</span>
+                                <span class="pt">"_new"</span>
+                                <span class="nt">&gt;</span>
+                                <span class="nt">Página em branco</span>
+                                <span class="nt">&lt;</span>
+                                <span class="nt">/</span>
+                                <span class="tags2">a</span>
+                                <span class="nt">&gt;</span>
+                            </code>
+                        </li>
+                        <br>
+                        <li>
+                            <code>
+                                <span class="nt">&lt;</span>
+                                <span class="tags2">a</span>
+                                <span class="atr"> href=</span>
+                                <span class="pt">"about:blank"</span>
+                                <span class="atr">target=</span>
+                                <span class="pt">"booger"</span>
+                                <span class="nt">&gt;</span>
+                                <span class="nt">Página em branco</span>
+                                <span class="nt">&lt;</span>
+                                <span class="nt">/</span>
+                                <span class="tags2">a</span>
+                                <span class="nt">&gt;</span>
+                            </code>
+                        </li>
+                    </ul>
+                </div>  
+            <blockquote id="Caracteres">Caracteres especiais e símbolos</blockquote><hr><br>
+            <p>Os caracteres especiais definem-se usando comandos que começam com <code>&</code>e terminam com um <code>;</code>. Alguns exemplos incluem <code>& aacute;</code> (á),<code>& agrave;</code>(à),<code>& atilde;</code> (ã), <code>& ;</code>(â), <code>& auml;</code>(ä) e <code>& ccedil;</code>(ç). Qualquer outra vogal pode ser substituída pelo a destes exemplos, incluindo maiúsculas.</p>
+        </section>  
+        <section>
+            <footer>
+                <div class="rodape">
+                    <p> Esta página foi editada pela última vez às 12:40 de 26 de maio de 2024.
+                    </p>
+                </div>
+            </footer>
+        </section>
+    </main>
+</body> 
+</html>         

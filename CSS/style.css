@@ -1,0 +1,165 @@
+/* -----------------------------------Estrutura---------------------------------- */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    font-family: sans-serif;
+    font-size: 11pt;
+}
+body{
+    background-color: #f5f5f5f5;
+}
+header{
+    background-color: white;
+    margin: 0px 150px 0px 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.links{
+    background-color: white;
+    margin-left: 150px;
+    width: 200px;
+    height: 4200px;
+}
+main{
+    background-color: white;
+    margin: 0px 150px 0px 350px;
+    margin-top: -4200px;
+}
+.rodape{
+    height: 98px;
+    margin-top: 80px;
+    font-size: 11pt;
+    text-align: center;
+    font-style: italic;
+}
+/* ------------------------------------------Header------------------------------------- */
+header > figure > img{
+    height: 50px;
+    height: 50px;
+    padding: 10px;
+}
+header > input{
+    width: 15%;
+    padding: 3px;
+    margin-left: 60px;
+}
+header > button{
+    width: 5%;
+    padding: 3px;
+    font-style: italic;
+    font-weight: bold;
+}
+.nav1{
+    margin-left: 50%;
+}
+.ul1{
+    display: flex;
+    list-style: none;
+}
+li{
+    display: list-item;
+    margin-left: 10px;
+}
+/* ------------------------------------------ANCORA------------------------------------- */
+.nav2{
+    margin-left: 1%;
+    font-size: 10pt;
+}
+.ul2{
+    list-style: none;
+    position: fixed;
+}
+.details{
+    margin-left: 5%;
+}
+/* ------------------------------------------Conteudo------------------------------------- */
+blockquote{
+    font-size: 25pt;
+    margin-left: 50px;
+}
+/* ------------------------------------------Tabela------------------------------------- */
+table {
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 250px;
+    box-shadow: 0px -1px 9px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -1px 9px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 9px 2px rgba(0,0,0,0.75);
+    border: solid 2px gray;
+}
+.versão{
+    background-color: black;
+    color: white;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+table tbody tr:nth-child(even) td {
+    background-color: #F1F1F1;
+}
+/* ------------------------------------------MARCAS------------------------------------- */
+.tags{
+    width: 100px;
+    margin-left: 80%;
+}
+.text2{
+    width: 80%;
+    margin-top: -140px;
+}
+
+pre {
+    background-color: #f5f5f5;
+    color: red;
+    font-style: italic;
+    font-size: 11pt;
+    width: 90%;
+}
+/* ------------------------------------------list-CODE------------------------------------- */
+code{
+    background-color: #f5f5f5;
+    color: black;
+    font-size: 11pt;
+    border: solid 1px rgba(153, 151, 151, 0.253);
+}
+.span {
+    white-space: nowrap;
+}
+.rh{
+    color: coral;
+}
+.nt{
+    color: black;
+}
+.li{
+    color: black;
+    margin-left: 30px;
+}
+.lo{
+    color: black;
+    margin-left: 50px;
+}
+.tags2{
+    color: green;
+}
+.atr{
+    color: rgb(76, 99, 38);
+}
+.pt{
+    color: red;
+}
+.trx{
+    color: rgb(62, 89, 240);
+}
+.img3{
+    margin-left: 78%;
+}
+.text3{
+    width: 75%;
+    margin-top: -370px;
+}
+
